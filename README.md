@@ -1,5 +1,5 @@
 # TransFusion
-### TransFusion: A Practical and Effective Transformer-based Diffusion Model for 3D Human Motion Prediction
+#### TransFusion: A Practical and Effective Transformer-based Diffusion Model for 3D Human Motion Prediction
 
 [Sibo Tian](https://scholar.google.com/citations?hl=en&user=fv-tcZIAAAAJ)<sup>1</sup>, [Minghui Zheng](https://engineering.tamu.edu/mechanical/profiles/zheng-minghui.html)<sup>1,\*</sup>, [Xiao Liang](https://engineering.tamu.edu/civil/profiles/liang-xiao.html)<sup>2,\*</sup>
 
