@@ -15,3 +15,18 @@
 
 ## Demos of Human Motion Prediction
 
+More prediction demos could be found in `./assets`.
+
+#### Human3.6M -- Walking
+![](assets/H36M_Walking.gif)
+
+#### Human3.6M -- Walk Together
+![](assets/H36M_WalkTogether.gif)
+
+#### Human3.6M -- Photo
+![](assets/H36M_Photo.gif)
+
+#### Human3.6M -- Purchases
+![](assets/H36M_Purchases.gif)
+
+
