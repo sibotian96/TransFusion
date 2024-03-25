@@ -15,7 +15,7 @@
 
 ## Demos of Human Motion Prediction
 
-More prediction demos could be found in `./assets`.
+More prediction demos can be found in `./assets`.
 
 #### Human3.6M -- Walking
 ![](assets/H36M_Walking.gif)
@@ -29,4 +29,37 @@ More prediction demos could be found in `./assets`.
 #### Human3.6M -- Purchases
 ![](assets/H36M_Purchases.gif)
 
+#### HumanEva-I -- Jog
+![](assets/HumanEva_Jog.gif)
 
+#### HumanEva-I -- Box
+![](assets/HumanEva_Box.gif)
+
+#### HumanEva-I -- Walking
+![](assets/HumanEva_Walking.gif)
+
+#### HumanEva-I -- Gestures
+![](assets/HumanEva_Gestures.gif)
+
+#### AMASS -- DanceDB
+![](assets/AMASS_DanceDB.gif)
+
+#### AMASS -- DFaust
+![](assets/AMASS_DFaust.gif)
+
+#### AMASS -- SSM
+![](assets/AMASS_SSM.gif)
+
+#### AMASS -- Transitions
+![](assets/AMASS_Transitions.gif)
+
+## Citation
+If you find our work useful in your research, please consider citing our paper:
+```
+@article{tian2023transfusion,
+  title={TransFusion: A practical and effective transformer-based diffusion model for 3d human motion prediction},
+  author={Tian, Sibo and Zheng, Minghui and Liang, Xiao},
+  journal={arXiv preprint arXiv:2307.16106},
+  year={2023}
+}
+```
