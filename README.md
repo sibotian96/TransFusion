@@ -32,8 +32,8 @@ More prediction demos can be found in `./assets`.
 #### HumanEva-I -- Jog
 ![](assets/HumanEva_Jog.gif)
 
-#### HumanEva-I -- Box
-![](assets/HumanEva_Box.gif)
+#### HumanEva-I -- ThrowCatch
+![](assets/HumanEva_ThrowCatch.gif)
 
 #### HumanEva-I -- Walking
 ![](assets/HumanEva_Walking.gif)
