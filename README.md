@@ -11,6 +11,7 @@
 
 ## News
 
+**[2024/04/28]: Our work is accepted by IEEE Robotics and Automation Letters (RA-L)! Code will be released soon!**
 **[2024/03/25]: TransFusion prediction demos released! Code will be released once the paper is accepted. Stay tuned!**
 
 ## Demos of Human Motion Prediction
