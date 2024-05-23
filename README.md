@@ -75,7 +75,7 @@ python main.py --cfg amass --mode eval --ckpt ./checkpoints/amass_ckpt.pt --seed
 **Note**: We change the random seed to 6 instead of 0 for AMASS dataset to fairly compared with [BeLFusion](https://github.com/BarqueroGerman/BeLFusion). GPU is required for evaluation.
 
 ## Training
-For training TransFusion from scratch for all three datasets, run:
+For training TransFusion from scratch for all three datasets, run the following scripts:
 ```
 python main.py --cfg h36m --mode train
 ```
