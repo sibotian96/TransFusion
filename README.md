@@ -14,7 +14,7 @@
 
 ## Setup
 
-### 1. Environment
+### 1. Python/Conda Environment
 
 ```
 sh install.sh
