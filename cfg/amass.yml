@@ -19,6 +19,3 @@ dropout: 0.2
 mod_train: 0.8
 mod_test: 1.0
 dct_norm_enable: False
-multimodal_threshold: 0.4
-seed: 6
-milestone: [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800, 3000]
