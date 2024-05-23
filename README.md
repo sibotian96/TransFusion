@@ -24,7 +24,35 @@ sh install.sh
 
 **Datasets for [Human3.6M](http://vision.imar.ro/human3.6m/description.php), [HumanEva-I](http://humaneva.is.tue.mpg.de/) and [AMASS](https://amass.is.tue.mpg.de/)**:
 
-For Human3.6M and HumanEva-I, we adopt the data preprocessing from [GSPS](https://github.com/wei-mao-2019/gsps), which you can refer to [here](https://drive.google.com/drive/folders/1sb1n9l0Na5EqtapDVShOJJ-v6o-GZrIJ) and download all files into the `./data` directory. For AMASS, we carefully adopt the data preprocessing from [BeLFusion](https://github.com/BarqueroGerman/BeLFusion). We provide all the processed data we use [here](https://drive.google.com/drive/folders/1J_8XyZC_sgRYZg6TQm09ZhlcsjjYO9Y8?usp=sharing).
+For Human3.6M and HumanEva-I, we adopt the data preprocessing from [GSPS](https://github.com/wei-mao-2019/gsps). For AMASS, we carefully adopt the data preprocessing from [BeLFusion](https://github.com/BarqueroGerman/BeLFusion). We provide all the processed data [here](https://drive.google.com/drive/folders/1J_8XyZC_sgRYZg6TQm09ZhlcsjjYO9Y8?usp=sharing) for convenience. Download all files into the `./data` directory and the final `./data` directory structure is shown below:
+
+```
+data
+├── data_3d_amass.npz
+├── data_3d_amass_test.npz
+├── data_3d_h36m.npz
+├── data_3d_h36m_test.npz
+├── data_3d_humaneva15.npz
+├── data_3d_humaneva15_test.npz
+├── data_multi_modal
+│   ├── data_candi_t_his25_t_pred100_skiprate20.npz
+│   └── t_his25_1_thre0.500_t_pred100_thre0.100_filtered_dlow.npz
+└── humaneva_multi_modal
+    ├── data_candi_t_his15_t_pred60_skiprate15.npz
+    └── t_his15_1_thre0.500_t_pred60_thre0.010_index_filterd.npz
+```
+
+### 3. Pretrained Models
+
+We provide the pretrained models for all three datasets [here](https://drive.google.com/drive/folders/16iPASM7pnYEixBXaVFnp2pGbjgg-Ppxq?usp=sharing). Download all files into the `./checkpoints` directory and the final `./checkpoints` directory structure is shown below:
+
+```
+checkpoints
+├── humaneva_ckpt.pt
+├── h36m_ckpt.pt
+└── amass_ckpt.pt
+```
+
 
 
 ## News
