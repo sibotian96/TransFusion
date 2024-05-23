@@ -20,6 +20,13 @@
 sh install.sh
 ```
 
+### 2. Datasets
+
+**Datasets for [Human3.6M](http://vision.imar.ro/human3.6m/description.php), [HumanEva-I](http://humaneva.is.tue.mpg.de/) and [AMASS](https://amass.is.tue.mpg.de/)**:
+
+For Human3.6M and HumanEva-I, we adopt the data preprocessing from [GSPS](https://github.com/wei-mao-2019/gsps), which you can refer to [here](https://drive.google.com/drive/folders/1sb1n9l0Na5EqtapDVShOJJ-v6o-GZrIJ) and download all files into the `./data` directory. For AMASS, we carefully adopt the data preprocessing from [BeLFusion](https://github.com/BarqueroGerman/BeLFusion). We provide all the processed data we use [here](https://drive.google.com/drive/folders/1J_8XyZC_sgRYZg6TQm09ZhlcsjjYO9Y8?usp=sharing).
+
+
 ## News
 
 **[2024/05/23]: Code released!**
