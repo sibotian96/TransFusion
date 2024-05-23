@@ -53,6 +53,38 @@ checkpoints
 └── amass_ckpt.pt
 ```
 
+## Evaluation
+Evaluate on Human3.6M:
+
+```
+python main.py --cfg h36m --mode eval --ckpt ./checkpoints/h36m_ckpt.pt
+```
+
+Evaluate on HumanEva-I:
+
+```
+python main.py --cfg humaneva --mode eval --ckpt ./checkpoints/humaneva_ckpt.pt
+```
+
+Evaluate on AMASS:
+
+```
+python main.py --cfg amass --mode eval --ckpt ./checkpoints/amass_ckpt.pt --seed 6
+```
+
+**Note**: We change the random seed to 6 instead of 0 for AMASS dataset to fairly compared with [BeLFusion](https://github.com/BarqueroGerman/BeLFusion). GPU is required for evaluation.
+
+## Training
+For training TransFusion from scratch for all three datasets, run:
+```
+python main.py --cfg h36m --mode train
+```
+```
+python main.py --cfg humaneva --mode train
+```
+```
+python main.py --cfg amass --mode train --multimodal_threshold 0.4 --seed 6 --milestone [200, 400, 600, 800, 1000, 1200, 1400, 1600, 1800, 2000, 2200, 2400, 2600, 2800]
+```
 
 
 ## News
