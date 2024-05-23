@@ -157,3 +157,6 @@ If you find our work useful in your research, please consider citing our paper:
   publisher={IEEE}
 }
 ```
+
+## License
+The software in this repository is freely available for free non-commercial use (see [license](https://github.com/sibotian96/TransFusion/LICENSE) for further details).
