@@ -68,7 +68,7 @@ if __name__ == '__main__':
         ckpt = torch.load(args.ckpt)
         model.load_state_dict(ckpt)
         if cfg.dataset == 'amass':
-            multimodal_dict = get_multimodal_gt_full_amass(logger, dataset['test'], args, cfg)
+            multimodal_dict = get_multimodal_gt_full(logger, dataset['test'], args, cfg)
         else:
             multimodal_dict = get_multimodal_gt_full(logger, dataset_multi_test, args, cfg)
         compute_stats(diffusion, multimodal_dict, model, logger, cfg)
