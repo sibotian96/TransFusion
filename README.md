@@ -60,10 +60,11 @@ More prediction demos can be found in `./assets`.
 ## Citation
 If you find our work useful in your research, please consider citing our paper:
 ```
-@article{tian2023transfusion,
+@article{tian2024transfusion,
   title={TransFusion: A practical and effective transformer-based diffusion model for 3d human motion prediction},
   author={Tian, Sibo and Zheng, Minghui and Liang, Xiao},
-  journal={arXiv preprint arXiv:2307.16106},
-  year={2023}
+  journal={IEEE Robotics and Automation Letters},
+  year={2024},
+  publisher={IEEE}
 }
 ```
