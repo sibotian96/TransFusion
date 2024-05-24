@@ -158,5 +158,8 @@ If you find our work useful in your research, please consider citing our paper:
 }
 ```
 
+## Acknowledgment
+Project structure borrowed from [HumanMAC](https://github.com/LinghaoChan/HumanMAC). We would like to thank the authors for making their code publicly available.
+
 ## License
-The software in this repository is freely available for free non-commercial use (see [license](https://github.com/sibotian96/TransFusion/LICENSE) for further details).
+The software in this repository is freely available for free non-commercial use (see [license](https://github.com/sibotian96/TransFusion/blob/main/LICENSE) for further details).
