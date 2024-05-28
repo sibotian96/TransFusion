@@ -94,9 +94,6 @@ def render_animation(skeleton, poses_generator, algos, t_hist, fix_0=True, azim=
                 else:
                     col = mcol
 
-                if fix_i is not None and j in fix_i:
-                    col = fix_col
-
                 for n, ax in enumerate(ax_3d):
                     pos = poses[n][i]
 
@@ -116,9 +113,6 @@ def render_animation(skeleton, poses_generator, algos, t_hist, fix_0=True, azim=
                     col = lcol
                 else:
                     col = mcol
-
-                if fix_i is not None and j in fix_i:
-                    col = fix_col
 
                 for n, ax in enumerate(ax_3d):
                     if fix_0 and n == 0 and i >= t_hist:
