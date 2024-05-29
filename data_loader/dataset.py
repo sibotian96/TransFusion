@@ -1,7 +1,7 @@
 import numpy as np
 
-class Dataset:
 
+class Dataset:
     def __init__(self, mode, t_his, t_pred, actions='all'):
         self.mode = mode
         self.t_his = t_his
