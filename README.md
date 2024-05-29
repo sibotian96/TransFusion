@@ -158,6 +158,9 @@ If you find our work useful in your research, please consider citing our paper:
   author={Tian, Sibo and Zheng, Minghui and Liang, Xiao},
   journal={IEEE Robotics and Automation Letters},
   year={2024},
+  volume={9},
+  number={7},
+  pages={6232-6239},
   publisher={IEEE}
 }
 ```
