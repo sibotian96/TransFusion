@@ -6,12 +6,10 @@ from utils import padding_traj
 from utils.visualization import render_animation
 from models.transformer import MotionTransformer
 from models.diffusion import Diffusion
-
 from data_loader.dataset_h36m import DatasetH36M
 from data_loader.dataset_humaneva import DatasetHumanEva
 from data_loader.dataset_h36m_multimodal import DatasetH36M_multi
 from data_loader.dataset_humaneva_multimodal import DatasetHumanEva_multi
-
 from scipy.spatial.distance import pdist, squareform
 
 
