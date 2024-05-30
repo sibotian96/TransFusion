@@ -32,8 +32,8 @@ def pose_generator(data_set, model_select, diffusion, cfg, mode=None,
                     poses['context'] = gt
                     poses['gt'] = gt
                 else:
-                    poses[f'TransFusion{draw_order_indicator + 1}'] = gt
-                    poses[f'TransFusion{draw_order_indicator + 2}'] = gt
+                    poses[f'TransFusion_{draw_order_indicator + 1}'] = gt
+                    poses[f'TransFusion_{draw_order_indicator + 2}'] = gt
                 gt = np.expand_dims(gt, axis=0)
                 traj_np = gt[..., 1:, :].reshape([gt.shape[0], cfg.t_his + cfg.t_pred, -1])
 
