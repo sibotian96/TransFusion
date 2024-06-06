@@ -16,7 +16,6 @@ def sqrt_beta_schedule(timesteps, s=0.0001):
 
 
 def cosine_beta_schedule(timesteps, s=0.008):
-# def cosine_beta_schedule(timesteps, s=1):
     """
     cosine schedule
     as proposed in https://openreview.net/forum?id=-NEXDKk8gZ
