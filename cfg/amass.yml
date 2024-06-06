@@ -7,6 +7,8 @@ num_data_sample: 50000
 num_val_data_sample: 5000
 lr: 3.e-4
 n_pre: 20
+multimodal_path: None
+data_candi_path: None
 padding: 'LastFrame'
 Complete: True
 noise_steps: 1000
