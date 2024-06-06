@@ -77,7 +77,7 @@ python main.py --cfg humaneva --mode eval --ckpt ./checkpoints/humaneva_ckpt.pt
 Evaluate on AMASS:
 
 ```
-python main.py --cfg amass --mode eval --ckpt ./checkpoints/amass_ckpt.pt --seed 6
+python main.py --cfg amass --mode eval --ckpt ./checkpoints/amass_ckpt.pt --multimodal_threshold 0.4 --seed 6
 ```
 
 **Note**: We change the random seed to 6 instead of 0 for AMASS dataset to fairly compared with [BeLFusion](https://github.com/BarqueroGerman/BeLFusion). GPU is required for evaluation.
