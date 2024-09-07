@@ -24,8 +24,17 @@
 
 ### 1. Python/Conda Environment
 
+The following code is tested on Linux-64 in a cluster environment as well as on Windows 11. If you are using Linux-64 in a cluster environment, please use `source activate transfusion` instead of `conda activate transfusion`.
+
 ```
-sh install.sh
+mkdir ./checkpoints
+mkdir ./data
+mkdir ./inference
+mkdir ./results
+conda create -n transfusion python=3.8
+conda activate transfusion
+python -m pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 -f https://download.pytorch.org/whl/torch_stable.html
+python -m pip install -r requirement.txt
 ```
 
 ### 2. Datasets
