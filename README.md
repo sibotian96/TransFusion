@@ -14,6 +14,8 @@
 
 ## 📢 News
 
+**[2026/04/24]: Inference code for the following work, evaluated on the H36M and AMASS datasets, has been released! Check [here](https://github.com/sibotian96/SwiftDiff).**
+
 **[2024/05/23]: Code released!**
 
 **[2024/04/28]: Our work is accepted by IEEE Robotics and Automation Letters (RA-L)!**
